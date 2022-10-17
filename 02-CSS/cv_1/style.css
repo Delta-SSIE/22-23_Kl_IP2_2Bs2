@@ -15,5 +15,11 @@ body {
     font-size: 10pt;
 }
 
-/*přepište barvu základního textu na RGB kód barvy WhiteSmoke a písmo na Georgia, případně obecné patkové velikosti 10pt
-*/
+h1, h2, h3 {
+    color: #ffd700;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+}
+
+a {
+    color: tomato;
+  }

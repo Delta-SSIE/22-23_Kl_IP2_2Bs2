@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hlavni_nadpis {
+            color: violet
+        }
+
+        .dulezite {
+            color: red;
+            font-weight: bold
+        }
+
+        p.poznamka {
+            font-size: x-small
+        }
+
+        p {
+            padding-top: 1em;
+        }
+
+        ol>li>a {
+            font-weight: bold;
+        }
+
+        ol a {
+            font-style: italic;
+        }
+
+        h1,
+        h2,
+        h3,
+        p.polozka,
+        #navigace {
+            font-family: Arial, sans-serif
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 id="hlavni_nadpis">Naše firma</h1>
+    <p class="dulezite">Kdo to ukradne, tomu upadne!</p>
+    <p>Karel jel na vodu, ale vrátil se už <span class="dulezite">za dva dny!</span>.</p>
+    <p class="poznamka">Předchozí text byl převzat z původní německé verze</p>
+
+    <a href="#">jen tak odkaz</a>
+    <ol>
+        <li>jedna</li>
+        <li>dva</li>
+        <li><a href="#">tři</a></li>
+        <li>
+            <ul>
+                <li>podjedna</li>
+                <li>poddva</li>
+                <li><a href="#">podtři</a></li>
+            </ul>
+        </li>
+    </ol>
+</body>
+
+</html>
