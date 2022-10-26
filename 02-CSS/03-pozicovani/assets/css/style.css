@@ -1,0 +1,52 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 1em;
+    font-size: large;
+}
+
+p.note {
+    font-style: italic;
+}
+
+figure {
+    text-align: center;
+    width: 800px;
+    background-color: aqua;
+    margin:auto;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#indyInRaiders img {
+    height: 120px;
+    display: block;
+    margin: auto;
+    /* border-color: wheat;
+    border-width: 20px;
+    border-style: solid; */
+
+    border: 20px solid wheat;
+    border-radius: 50%;
+
+    padding: 30px;
+    background-color: blueviolet;
+    /* margin: 30px; */
+}
+
+p {
+    background-color: pink;
+    /* padding: 1rem 3rem 5rem 7rem; */
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 1rem;
+}
+
+h1 {
+    background-color: black;
+    color: gold;
+    margin: auto;
+}
