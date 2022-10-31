@@ -12,9 +12,10 @@ p.note {
 
 figure {
     text-align: center;
-    width: 800px;
+    /* width: 800px; */
     background-color: aqua;
     margin:auto;
+    float: right;
 }
 
 figcaption {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='cs'>
+<head>
+    <title>Stromy</title>
+    <meta charset='utf-8'>
+    <style>
+        body {
+            font-family: Calibri , sans-serif;
+            background-color: #e7e7e7;
+        }
+        div.strom {
+            border-style: solid;
+            border-color: #c0c0c0;
+            border-width: 1px;
+            display: inline-block;
+            padding: 1rem;
+            background-color: #ffffff;
+            margin: 0.25rem;
+            min-height: 500px;
+            line-height: 150%;
+            min-width: 300px;
+        }
+        span.nazev {
+            font-weight: bold;
+            font-size: larger;
+            font-family: Cambria, serif;
+        }
+        span.popis {
+            width: 50%;
+            display: inline-block;
+            font-style: italic;
+        }
+        span.popis::after {
+            content: ":";
+        }
+        img {
+            border-radius: 1rem;
+            display: block;
+            margin-top: 0.5rem;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="stromy">
+    <div class="strom">
+        <span class="nazev"><span class="popis">Název</span> <span class="hodnota">Smrk</span></span><br>
+        <span class="vyska"><span class="popis">Typická výška</span> <span class="hodnota">až 50 m</span></span><br>
+        <span class="plod"><span class="popis">Plod</span> <span class="hodnota">šiška</span></span><br>
+        <img src="img/smrk.jpg" alt="Smrk" />
+    </div>
+    <div class="strom">
+        <span class="nazev"><span class="popis">Název</span> <span class="hodnota">Dub</span></span><br>
+        <span class="vyska"><span class="popis">Typická výška</span> <span class="hodnota">až 45 m</span></span><br>
+        <span class="plod"><span class="popis">Plod</span> <span class="hodnota">žalud</span></span><br>
+        <img src="img/dub.jpg" alt="Dub" />
+    </div>
+    <div class="strom">
+        <span class="nazev"><span class="popis">Název</span> <span class="hodnota">Jasan</span></span><br>
+        <span class="vyska"><span class="popis">Typická výška</span> <span class="hodnota">30 - 40 m</span></span><br>
+        <span class="plod"><span class="popis">Plod</span> <span class="hodnota">nažka</span></span><br>
+        <img src="img/jasan.jpg" alt="Jasan" />
+    </div>
+</div>
+        
+</body>
+</html>
