@@ -1,0 +1,53 @@
+html {
+    font-family: Calibri, sans-serif;
+}
+#page {
+    max-width: 1024px;
+    margin: auto;
+}
+
+header {
+    border-top: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#central {
+    position: relative;
+    padding-left: 15rem;
+    padding-right: 12rem;
+    min-height: 510px;
+}
+
+#central nav {
+    position: absolute;
+    top:0;
+    left:0;
+    max-width: 14rem;
+}
+
+#central aside {
+    position: absolute;
+    top:0;
+    right:0;
+    max-width: 11rem;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+footer {
+    padding: 0.5rem 0;
+    border-top: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+    font-style: italic;
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+
